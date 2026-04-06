@@ -1,0 +1,529 @@
+{
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": "PM Kisan Samman Nidhi",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "category": "Agriculture",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 200000,
+        "occupation": ["Farmer"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Direct income support of ₹6,000 per year in three equal installments of ₹2,000 each.",
+      "documents": ["Aadhaar Card", "Land Holding Documents", "Bank Passbook", "Mobile Number"],
+      "applicationUrl": "https://pmkisan.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Bengali", "Marathi", "Tamil", "Telegu"],
+      "tags": ["Farmers", "Income Support", "DBT"]
+    },
+    {
+      "id": "ayushman-bharat",
+      "name": "Ayushman Bharat - PMJAY",
+      "ministry": "Ministry of Health and Family Welfare",
+      "category": "Health",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 250000,
+        "occupation": ["Unorganized Worker", "Manual Scavenger", "Landless Laborer"],
+        "state": "All",
+        "casteCategory": ["SC", "ST", "OBC", "General"]
+      },
+      "benefits": "Health cover of ₹5 Lakh per family per year for secondary and tertiary care hospitalization.",
+      "documents": ["Aadhaar Card", "Ration Card", "SECC 2011 ID", "Mobile Number"],
+      "applicationUrl": "https://setu.pmjay.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Healthcare", "Insurance", "Emergency"]
+    },
+    {
+      "id": "pm-awas-yojana-urban",
+      "name": "Pradhan Mantri Awas Yojana (Urban)",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "category": "Housing",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 600000,
+        "occupation": ["All"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Interest subsidy on home loans for EWS, LIG, and MIG categories for construction/acquisition of houses.",
+      "documents": ["Aadhaar Card", "Voter ID", "Income Certificate", "Affidavit of no pucca house"],
+      "applicationUrl": "https://pmaymis.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Housing", "Urban", "Subsidy"]
+    },
+    {
+      "id": "pm-mudra-yojana",
+      "name": "Pradhan Mantri Mudra Yojana",
+      "ministry": "Ministry of Finance",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "gender": "All",
+        "maxAnnualIncome": 1000000,
+        "occupation": ["Entrepreneur", "Small Business Owner"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Loans up to ₹10 Lakh for small business activities in manufacturing, trading, and service sectors.",
+      "documents": ["Aadhaar Card", "Business Plan", "Address Proof", "Caste Certificate (if applicable)"],
+      "applicationUrl": "https://www.mudra.org.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Business Loan", "Startup", "Micro Finance"]
+    },
+    {
+      "id": "sukanya-samriddhi",
+      "name": "Sukanya Samriddhi Yojana",
+      "ministry": "Ministry of Women and Child Development",
+      "category": "Women & Child",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 10,
+        "gender": "Female",
+        "maxAnnualIncome": 10000000,
+        "occupation": ["Student"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Higher interest rate savings account for the girl child with tax benefits and corpus for education/marriage.",
+      "documents": ["Birth Certificate of Girl Child", "Guardian Aadhaar Card", "Guardian Photo", "Address Proof"],
+      "applicationUrl": "https://www.indiapost.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Savings", "Girl Child", "Education"]
+    },
+    {
+      "id": "mgnrega",
+      "name": "MGNREGA",
+      "ministry": "Ministry of Rural Development",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 150000,
+        "occupation": ["Unskilled Laborer"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Guaranteed 100 days of wage employment in a financial year to every rural household.",
+      "documents": ["Job Card", "Aadhaar Card", "Bank Account Details", "Photograph"],
+      "applicationUrl": "https://nrega.nic.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Rural Livelihood", "Guaranteed Work", "Wages"]
+    },
+    {
+      "id": "post-matric-pwd",
+      "name": "Post-Matric Scholarship for Students with Disabilities",
+      "ministry": "Ministry of Social Justice and Empowerment",
+      "category": "Education",
+      "eligibility": {
+        "minAge": 14,
+        "maxAge": 35,
+        "gender": "All",
+        "maxAnnualIncome": 250000,
+        "occupation": ["Student"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Maintenance allowance, book grant, and disability allowance for pursuing studies after Class 10.",
+      "documents": ["Disability Certificate (40%+)", "Mark Sheet", "Income Certificate", "Aadhaar Card"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applyOffline": false,
+      "languages": ["English", "Hindi"],
+      "tags": ["Scholarship", "Disability", "Higher Education"]
+    },
+    {
+      "id": "pm-kushal-vikas",
+      "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+      "ministry": "Ministry of Skill Development and Entrepreneurship",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 15,
+        "maxAge": 45,
+        "gender": "All",
+        "maxAnnualIncome": 500000,
+        "occupation": ["Unemployed Youth", "Student"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Free skill training and certification with a monetary reward for successfully completing the training.",
+      "documents": ["Aadhaar Card", "Educational Qualification Proof", "Bank Account Details"],
+      "applicationUrl": "https://www.pmkvyofficial.org/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Skill Development", "Certification", "Job Training"]
+    },
+    {
+      "id": "pm-matru-vandana",
+      "name": "Pradhan Mantri Matru Vandana Yojana",
+      "ministry": "Ministry of Women and Child Development",
+      "category": "Women & Child",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 50,
+        "gender": "Female",
+        "maxAnnualIncome": 800000,
+        "occupation": ["Pregnant/Lactating Mother"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Cash incentive of ₹5,000 in three installments for the first live birth to meet nutrition needs.",
+      "documents": ["Mother-Child Protection Card", "Aadhaar Card", "Bank Account Details", "Husband's Aadhaar Card"],
+      "applicationUrl": "https://pmmvy-cas.nic.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Maternal Health", "Nutrition", "Cash Incentive"]
+    },
+    {
+      "id": "pm-svanidhi",
+      "name": "PM SVANidhi",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "gender": "All",
+        "maxAnnualIncome": 300000,
+        "occupation": ["Street Vendor"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Working capital loan up to ₹10,000, interest subsidy, and cashback on digital transactions.",
+      "documents": ["Vending Certificate", "Aadhaar Card", "Voter ID", "Mobile Number"],
+      "applicationUrl": "https://pmsvanidhi.mohua.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Urban Livelihood", "Loan", "Vendors"]
+    },
+    {
+      "id": "adip-scheme",
+      "name": "ADIP Scheme",
+      "ministry": "Ministry of Social Justice and Empowerment",
+      "category": "Disability",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 180000,
+        "occupation": ["All"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Assistance for purchase/fitting of aids and appliances for persons with disabilities.",
+      "documents": ["Disability Certificate", "Income Certificate", "Residence Proof", "Aadhaar Card"],
+      "applicationUrl": "https://depwd.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Aids and Appliances", "Support", "Accessibility"]
+    },
+    {
+      "id": "pre-matric-sc",
+      "name": "Pre-Matric Scholarship for SC Students",
+      "ministry": "Ministry of Social Justice and Empowerment",
+      "category": "Education",
+      "eligibility": {
+        "minAge": 6,
+        "maxAge": 16,
+        "gender": "All",
+        "maxAnnualIncome": 250000,
+        "occupation": ["Student"],
+        "state": "All",
+        "casteCategory": ["SC"]
+      },
+      "benefits": "Financial support to children of SC families for studying in classes 9 and 10.",
+      "documents": ["Caste Certificate", "Income Certificate", "Mark Sheet", "Aadhaar Card"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applyOffline": false,
+      "languages": ["English", "Hindi"],
+      "tags": ["SC Students", "Scholarship", "High School"]
+    },
+    {
+      "id": "pm-fasal-bima",
+      "name": "PM Fasal Bima Yojana",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "category": "Agriculture",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 500000,
+        "occupation": ["Farmer"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Crop insurance against non-preventable natural risks at very low premium rates.",
+      "documents": ["Land Records", "Sowing Certificate", "Bank Details", "Aadhaar Card"],
+      "applicationUrl": "https://pmfby.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Crop Insurance", "Agriculture Risk", "Farmers"]
+    },
+    {
+      "id": "atal-pension",
+      "name": "Atal Pension Yojana",
+      "ministry": "Ministry of Finance",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 40,
+        "gender": "All",
+        "maxAnnualIncome": 800000,
+        "occupation": ["Unorganized Sector Worker"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Guaranteed minimum monthly pension of ₹1,000 to ₹5,000 starting from the age of 60.",
+      "documents": ["Savings Bank Account", "Aadhaar Card", "Mobile Number"],
+      "applicationUrl": "https://enps.nsdl.com/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Pension", "Retirement", "Social Security"]
+    },
+    {
+      "id": "national-scholarship-minorities",
+      "name": "Post-Matric Scholarship for Minorities",
+      "ministry": "Ministry of Minority Affairs",
+      "category": "Education",
+      "eligibility": {
+        "minAge": 14,
+        "maxAge": 30,
+        "gender": "All",
+        "maxAnnualIncome": 200000,
+        "occupation": ["Student"],
+        "state": "All",
+        "casteCategory": ["Muslim", "Christian", "Sikh", "Buddhist", "Jain", "Parsi"]
+      },
+      "benefits": "Tuition fee, maintenance allowance for students belonging to minority communities.",
+      "documents": ["Self-declaration of Minority Community", "Income Certificate", "Mark Sheet", "Aadhaar Card"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applyOffline": false,
+      "languages": ["English", "Hindi"],
+      "tags": ["Minority", "Scholarship", "Education"]
+    },
+    {
+      "id": "pm-ujjwala-yojana",
+      "name": "Pradhan Mantri Ujjwala Yojana",
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "category": "Women & Child",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "Female",
+        "maxAnnualIncome": 250000,
+        "occupation": ["Housewife"],
+        "state": "All",
+        "casteCategory": ["SC", "ST", "BPL"]
+      },
+      "benefits": "Free LPG connection to women from BPL households and other eligible categories.",
+      "documents": ["BPL Card", "Aadhaar Card", "Ration Card", "Bank Details"],
+      "applicationUrl": "https://www.pmuy.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["LPG", "Clean Energy", "Women"]
+    },
+    {
+      "id": "digital-india-internship",
+      "name": "Digital India Internship Scheme",
+      "ministry": "Ministry of Electronics and Information Technology",
+      "category": "Education",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 25,
+        "gender": "All",
+        "maxAnnualIncome": 500000,
+        "occupation": ["Student"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Internship opportunity in Ministry/NIC with a stipend of ₹10,000 per month.",
+      "documents": ["College Bonafide Certificate", "Mark Sheet", "Aadhaar Card"],
+      "applicationUrl": "https://www.meity.gov.in/internship-scheme",
+      "applyOffline": false,
+      "languages": ["English"],
+      "tags": ["Internship", "IT", "Skills"]
+    },
+    {
+      "id": "kisan-credit-card",
+      "name": "Kisan Credit Card (KCC)",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "category": "Agriculture",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 75,
+        "gender": "All",
+        "maxAnnualIncome": 1000000,
+        "occupation": ["Farmer", "Owner Cultivator", "Tenant Farmer"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Timely credit for agriculture and allied activities with low interest rates.",
+      "documents": ["Land Record Proof", "Identity Proof", "Address Proof", "Photo"],
+      "applicationUrl": "https://www.pnbindia.in/kisan-credit-card.html",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Credit", "Farmers", "Loan"]
+    },
+    {
+      "id": "janaushadhi-yojana",
+      "name": "PM Bhartiya Janaushadhi Pariyojana",
+      "ministry": "Ministry of Chemicals and Fertilizers",
+      "category": "Health",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 10000000,
+        "occupation": ["All"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Quality generic medicines at much lower prices than branded versions.",
+      "documents": ["No specific documents required for purchase", "Prescription"],
+      "applicationUrl": "https://janaushadhi.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Medicine", "Affordable Health", "Generic"]
+    },
+    {
+      "id": "pm-egp",
+      "name": "PM Employment Generation Programme",
+      "ministry": "Ministry of Micro, Small and Medium Enterprises",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 800000,
+        "occupation": ["Entrepreneur"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Subsidy in project costs for setting up a new micro-enterprise with bank-linked credit.",
+      "documents": ["Project Report", "Caste Certificate", "Education Proof", "Aadhaar Card"],
+      "applicationUrl": "https://www.kviconline.gov.in/pmegpeportal/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["MSME", "Employment", "Subsidy"]
+    },
+    {
+      "id": "national-disability-pension",
+      "name": "Indira Gandhi National Disability Pension Scheme",
+      "ministry": "Ministry of Rural Development",
+      "category": "Disability",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 79,
+        "gender": "All",
+        "maxAnnualIncome": 50000,
+        "occupation": ["All"],
+        "state": "All",
+        "casteCategory": ["BPL"]
+      },
+      "benefits": "Monthly pension for persons with severe or multiple disabilities (80%+ disability).",
+      "documents": ["Disability Certificate", "BPL Certificate", "Aadhaar Card", "Bank Details"],
+      "applicationUrl": "https://nsap.nic.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Pension", "Disability Support", "BPL"]
+    },
+    {
+      "id": "beti-bachao-padhao",
+      "name": "Beti Bachao Beti Padhao",
+      "ministry": "Ministry of Women and Child Development",
+      "category": "Women & Child",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 100,
+        "gender": "Female",
+        "maxAnnualIncome": 10000000,
+        "occupation": ["Student", "Girl Child"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Awareness and advocacy for girl child rights, education, and prevention of gender-biased sex selection.",
+      "documents": ["No specific application for funds, but for associated state scholarships: Birth Certificate", "Aadhaar Card"],
+      "applicationUrl": "https://wcd.nic.in/schemes/beti-bachao-beti-padhao-scheme",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Girl Child", "Education", "Social Change"]
+    },
+    {
+      "id": "pm-surakshit-matritva",
+      "name": "PM Surakshit Matritva Abhiyan",
+      "ministry": "Ministry of Health and Family Welfare",
+      "category": "Health",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 45,
+        "gender": "Female",
+        "maxAnnualIncome": 500000,
+        "occupation": ["Pregnant Woman"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Quality antenatal care on the 9th of every month at government health facilities and diagnostic services.",
+      "documents": ["Antenatal Card", "Aadhaar Card", "Address Proof"],
+      "applicationUrl": "https://pmsma.nhp.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi"],
+      "tags": ["Maternal Health", "Pregnancy", "Free Checkup"]
+    },
+    {
+      "id": "pm-awas-yojana-gramin",
+      "name": "Pradhan Mantri Awas Yojana (Gramin)",
+      "ministry": "Ministry of Rural Development",
+      "category": "Housing",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 100,
+        "gender": "All",
+        "maxAnnualIncome": 200000,
+        "occupation": ["Rural Laborer", "Homeless"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Financial assistance for construction of a pucca house with basic amenities in rural areas.",
+      "documents": ["SECC ID", "Aadhaar Card", "Ration Card", "Bank Account"],
+      "applicationUrl": "https://pmayg.nic.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["Rural Housing", "Grant", "Shelter"]
+    },
+    {
+      "id": "deendayal-antyodaya-day",
+      "name": "Deendayal Antyodaya Yojana - NRLM",
+      "ministry": "Ministry of Rural Development",
+      "category": "Employment",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "gender": "Female",
+        "maxAnnualIncome": 250000,
+        "occupation": ["SHG Member", "Rural Poor"],
+        "state": "All",
+        "casteCategory": ["All"]
+      },
+      "benefits": "Organizing rural poor into Self Help Groups (SHGs) and providing financial support and livelihood training.",
+      "documents": ["Aadhaar Card", "BPL Proof", "SHG Registration"],
+      "applicationUrl": "https://aajeevika.gov.in/",
+      "applyOffline": true,
+      "languages": ["English", "Hindi", "Regional"],
+      "tags": ["SHG", "Micro-finance", "Rural Livelihood"]
+    }
+  ]
+}
